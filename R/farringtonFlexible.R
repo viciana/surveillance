@@ -174,7 +174,7 @@ farringtonFlexible <- function(sts, control = list(
 									 epochStr=epochStr,
 									 vectorOfDates=vectorOfDates,w=control$w,
 									 noPeriods=control$noPeriods,
-									 observed=observed[,j],population=population,
+									 observed=observed[,j],population=population[,j],
 									 verbose=control$verbose,
 									 pastWeeksNotIncluded=control$pastWeeksNotIncluded,k)
 
